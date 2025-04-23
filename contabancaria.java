@@ -4,13 +4,11 @@ public class contabancaria {
     private double saldo;
     public double sacar(){
 
-        return 0;
-
+        return this.saldo;
     }
     public double depositar(){
 
-        return 0;
-
+        return this.depositar();
     }
 
 
