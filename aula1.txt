@@ -1,0 +1,13 @@
+Programação Orientada a objetos
+->100H/3hs
+Paradigma
+Linguagem Java(+ verbosa)
+Característica Java
+->Orientada a objetos
+->Interpretada
+->fortemente Tipada
+->Case Sensitive
+->código Fonte.java
+->utiliza máquina Virtual
+ |_windows,linux,MacOS
+ 
