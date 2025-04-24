@@ -1,0 +1,11 @@
+Java é uma linguagem de programação amplamente utilizada e reconhecida por sua portabilidade, robustez e segurança. Criada em 1995 pela Sun Microsystems, sob a liderança de James Gosling, Java foi projetada com o objetivo de ser uma linguagem independente de plataforma, permitindo que programas escritos em Java possam ser executados em qualquer dispositivo que possua a Máquina Virtual Java (JVM).
+
+A filosofia "Write Once, Run Anywhere" (Escreva uma vez, execute em qualquer lugar) é um dos pilares fundamentais de Java. Isso significa que o código-fonte escrito em Java pode ser compilado em bytecode, que é interpretado pela JVM, tornando-o executável em diferentes sistemas operacionais, como Windows, Linux e macOS, sem a necessidade de modificações.
+
+Java é uma linguagem orientada a objetos, o que significa que ela organiza o código em torno de objetos e classes, promovendo a reutilização e a modularidade. Além disso, ela oferece uma rica biblioteca padrão, que facilita o desenvolvimento de aplicações para diversas finalidades, como desenvolvimento web, aplicações móveis, sistemas embarcados e muito mais.
+
+Ao longo dos anos, Java evoluiu significativamente, com atualizações regulares que introduzem novos recursos e melhorias de desempenho. Sua comunidade ativa e vasta documentação tornam-na uma escolha popular tanto para iniciantes quanto para desenvolvedores experientes.
+
+Hoje, Java é amplamente utilizada em aplicações corporativas, sistemas bancários, desenvolvimento de aplicativos Android e até mesmo em dispositivos IoT (Internet das Coisas), consolidando-se como uma das linguagens de programação mais importantes e versáteis do mundo.
+
+como configurar o java home no Windows
