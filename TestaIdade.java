@@ -6,5 +6,6 @@ public class TestaIdade {
          //gera uma idade no ano seguinte
          int idadeNoAnoQueVem = idade + 1;
          System.out.println(idadeNoAnoQueVem);
+
     }
 }
