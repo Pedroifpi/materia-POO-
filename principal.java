@@ -1,10 +1,15 @@
 public class principal {
     public static void main(String args[]) {
-        contabancaria contabancaria = new contabancaria();
-        contabancaria.numero = "12X0";
-        contabancaria.titular = "pedro lucas";
-        contabancaria.saldo = 1500;
+        contabancaria conta = new contabancaria();
+        conta.setnumero.numero = "12345";
+        conta.setTitular("joao");
+        conta.setSaldo(1000.00);
+        
 
-        System.out.println.""+conta.getSaldo();
+        System.out.println"numero da conta:"+conta.getNumero();
+        System.out.println"titular da conta:"+conta.getTitular();
+        System.out.println"saldo da conta:"+conta.getSaldo();
+
+
     }
 }
