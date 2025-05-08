@@ -5,6 +5,6 @@ public class principal {
         contabancaria.titular = "pedro lucas";
         contabancaria.saldo = 1500;
 
-
+        System.out.println.""+conta.getSaldo();
     }
 }
