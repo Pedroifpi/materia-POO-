@@ -1,7 +1,7 @@
  public abstract class Conta {
-    private int numero;
+    private final int numero;
     protected double saldo;
-    private Cliente titular;
+    private final Cliente titular;
 
     public Conta(int numero, Cliente titular) {
         this.numero = numero;
