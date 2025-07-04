@@ -1,12 +1,11 @@
 package arrays;
+
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.*;
 import java.util.List;
 
 public class Cliente {
     private String nome;
-    private List<Conta> contas;
+    private List<ContaCorrente> contas;
 
     public Cliente(String nome) {
         this.nome = nome;
@@ -17,19 +16,19 @@ public class Cliente {
         return nome;
     }
 
-    public void adicionarConta(Conta conta) {
-        contas.add(conta);
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public List<Conta> getContasOrdenadasPorSaldo() {
-        contas.sort(Comparator.comparingDouble(Conta::getSaldo));
+    public List<ContaCorrente> getContas() {
         return contas;
     }
 
-    public void imprimirContas() {
-        System.out.println("Contas do cliente: " + nome);
-        for (Conta conta : getContasOrdenadasPorSaldo()) {
-            System.out.println(conta);
-        }
+    public void setContas(List<ContaCorrente> contas) {
+        this.contas = contas;
+    }
+
+    public void adicionarConta(ContaCorrente conta) {
+        contas.add(conta);
     }
 }

@@ -1,14 +1,18 @@
+// filepath: c:\Users\ifpi\materia-POO-\arrays\Main.java
 package arrays;
-import arrays.Cliente;
-import arrays.Conta;
-import java.util.*;
-import java.util.HashMap;
-
-import servico.SistemaBancario;
 
 public class Main {
     public static void main(String[] args) {
-        SistemaBancario sistema = new SistemaBancario();
-        sistema.executar();
+        Cliente cliente = new Cliente("João");
+        ContaCorrente conta1 = new ContaCorrente(cliente, "123", 1000.0);
+        ContaCorrente conta2 = new ContaCorrente(cliente, "456", 2500.0);
+
+        cliente.adicionarConta(conta1);
+        cliente.adicionarConta(conta2);
+
+        System.out.println("Contas do cliente " + cliente.getNome() + ":");
+        for (ContaCorrente conta : cliente.getContas()) {
+            System.out.println(conta);
+        }
     }
 }
