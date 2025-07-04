@@ -1,4 +1,3 @@
-// filepath: c:\Users\ifpi\materia-POO-\arrays\Main.java
 package arrays;
 
 public class Main {
