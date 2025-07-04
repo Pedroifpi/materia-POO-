@@ -11,3 +11,17 @@ public class contabancaria {
         return this.depositar();
 }
 }
+    public String getTitular() {
+        return titular;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+}
+// Compare this snippet from contabancaria.java:
+// public class contabancaria { 
