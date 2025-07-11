@@ -5,6 +5,7 @@ public class Main {
         Cliente cliente = new Cliente("João");
         ContaCorrente conta1 = new ContaCorrente(cliente, "123", 1000.0);
         ContaCorrente conta2 = new ContaCorrente(cliente, "456", 2500.0);
+        
 
         cliente.adicionarConta(conta1);
         cliente.adicionarConta(conta2);
