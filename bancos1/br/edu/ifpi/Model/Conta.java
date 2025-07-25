@@ -1,4 +1,4 @@
-package br.edu.ifpi.Model;
+package br.edu.ifpi.model;
 
 public class Conta {
     private String numero;

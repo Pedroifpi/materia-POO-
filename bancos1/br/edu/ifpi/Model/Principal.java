@@ -1,3 +1,4 @@
+package br.edu.ifpi.model;
 public class Principal {
     public static void main(String[] args) {
         Conta conta = new Conta("12345");
